@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  --co-main: #e80;
+  --co-light: #ffe7bc;
+}
+
+.menu {
+  float: left;
+  width: 100px;
+  text-align: center;
+  height: 100%;
+  border-right: 1px solid var(--co-light);
+}
+.menuItem {
+  composes: click from global;
+  position: relative;
+  width: 100%;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--co-main);
+}
+.menuItem:hover {
+  background-color: var(--co-light);
+}
+
+.pageContent {
+  float: left;
+  width: calc(100% - 100px);
+  height: 100%;
+}

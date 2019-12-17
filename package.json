@@ -1,0 +1,34 @@
+{
+  "main": "main.js",
+  "author": "liumiao",
+  "license": "MIT",
+  "scripts": {
+    "work": "yarn watch-renderer & yarn css",
+    "css": "find ./src -name '*.css.d.ts' -print -exec rm -rf {} \\; && tcm src -w",
+    "watch-renderer": "webpack --config webpack-config/webpack.renderer.dev.js -w",
+    "start": "electron ."
+  },
+  "name": "read-key",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.17",
+    "@types/ramda": "^0.26.38",
+    "fs-extra": "^8.1.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.41.0",
+    "css-loader": "^3.3.2",
+    "electron": "4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "terser-webpack-plugin": "^2.3.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

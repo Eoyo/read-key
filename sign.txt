@@ -1,0 +1,7 @@
+from tsc template proj
+
+构建一个简单的 tsc 驱动编译的项目
+
+预装库:
+1. 文件操作 fs-extra
+2. 函数式的 ramda
