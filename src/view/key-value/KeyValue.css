@@ -3,3 +3,13 @@
   height: 100%;
   white-space: pre-wrap;
 }
+
+.button {
+  height: 30px;
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+  height: calc(100% - 30px);
+}
