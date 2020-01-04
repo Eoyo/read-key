@@ -5,7 +5,7 @@
   "scripts": {
     "work": "yarn watch-renderer & yarn css",
     "css": "find ./src -name '*.css.d.ts' -print -exec rm -rf {} \\; && tcm src -w",
-    "watch-renderer": "webpack --config webpack-config/webpack.renderer.dev.js -w",
+    "watch-renderer": "webpack --config build/webpack.renderer.dev.js -w",
     "start": "electron ."
   },
   "name": "read-key",

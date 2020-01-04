@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+.inputTextarea {
+  width: 100%;
+  height: calc(100% - 30px);
+  flex-shrink: 0;
+}
+
+.output {
+  width: 100%;
+  height: 100%;
+}
+.outputTextarea {
+  width: 25%;
+  height: 100%;
+}
