@@ -1,5 +1,5 @@
-import cssDom from "nested/dist/libs/css-dom";
-import setActiveClassName from "nested/dist/libs/set-active-class-name";
+import cssDom from "nested-ele/dist/libs/css-dom";
+import setActiveClassName from "nested-ele/dist/libs/set-active-class-name";
 import appCss from "./App.css";
 import decorateCss from "./decorator.css";
 

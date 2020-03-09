@@ -1,5 +1,5 @@
 import s from "./StyledCode.css";
-import cssDom from "nested/dist/libs/css-dom";
+import cssDom from "nested-ele/dist/libs/css-dom";
 import buildStyledString from "./build-styled-string";
 
 const e = cssDom(s)({

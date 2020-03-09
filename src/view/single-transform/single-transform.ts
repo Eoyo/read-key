@@ -1,6 +1,6 @@
 import s from "./single-transform.css";
-import cssDom from "nested/dist/libs/css-dom";
-import { DataDom } from "nested/dist/libs/data-dom";
+import cssDom from "nested-ele/dist/libs/css-dom";
+import { DataDom } from "nested-ele/dist/libs/data-dom";
 
 const e = cssDom(s)({ textarea: "textarea", button: "button" });
 

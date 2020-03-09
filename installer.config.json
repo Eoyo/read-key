@@ -1,0 +1,5 @@
+{
+  "dest": "installers/",
+  "icon": "resources/Icon.png",
+  "description": "read the string, write shot string"
+}
