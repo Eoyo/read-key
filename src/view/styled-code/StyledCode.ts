@@ -31,6 +31,6 @@ export default class StyledCode {
 
   dom = e.wrapper(
     this.text,
-    e.output(this.importCode, this.styledCode, this.jsonCode, this.renderCode)
+    e.output(this.styledCode, this.renderCode, this.importCode, this.jsonCode)
   );
 }
